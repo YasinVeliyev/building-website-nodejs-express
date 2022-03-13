@@ -1,14 +1,24 @@
 {
-  "name": "roux-academy",
+  "name": "building-website-nodejs-express",
   "version": "1.0.0",
-  "description": "Exercise files for my course Building a Website with Node.js and Express",
-  "main": "server.js",
+  "description": "This repository contains the code for my course 'Building a Website with Node.js Node.js' on [LinkedIn Learning](https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js-3).",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasinVeliyev/building-website-nodejs-express.git"
   },
   "keywords": [],
-  "author": "Daniel Khan",
-  "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {}
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YasinVeliyev/building-website-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/YasinVeliyev/building-website-nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
