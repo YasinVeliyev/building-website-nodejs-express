@@ -18,6 +18,13 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.set("trust proxy", 1);
 
+app.locals.siteName = "Roux Meetups";
+
+app.use((req, res, next) => {
+    res.locals.variable = "hello";
+    return next();
+});
+
 app.use(pageRouter);
 
 const PORT = process.env.PORT || 3001;
